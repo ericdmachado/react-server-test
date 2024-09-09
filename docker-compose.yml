@@ -1,0 +1,20 @@
+services:
+  react-server:
+    container_name: react-server
+    hostname: react-server
+    restart: on-failure
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    networks:
+      - react-server-net
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+networks:
+  react-server-net:
+    name: react-server-net
+    driver: bridge
