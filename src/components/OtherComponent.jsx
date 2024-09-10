@@ -1,14 +1,13 @@
-import { lazy } from 'react'; 
-import {Heading, Spinner} from '@chakra-ui/react';
-import {Suspense} from 'react';
+import { Suspense } from "react";
+import AsyncServerComponent from "@components/AsyncServerComponent";
+import SpinnerComponent from "@components/Spinner";
+import HeadingComponent from "@components/Heading";
 
-const AsyncServerComponent = lazy(()=>import('./AsyncServerComponent'));
-
-export default function OtherComponent(){
+export default function OtherComponent() {
   return (
-    <div style={{border: '2px solid red'}}>
-      <Heading size="ls">Load Async Server Component</Heading>
-      <Suspense fallback={<Spinner color='blue.500' />}>
+    <div style={{ border: "2px solid red" }}>
+      <HeadingComponent size="ls">Load Async Server Component</HeadingComponent>
+      <Suspense fallback={<SpinnerComponent />}>
         <AsyncServerComponent />
       </Suspense>
     </div>

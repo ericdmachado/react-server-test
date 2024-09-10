@@ -1,17 +1,18 @@
 {
-	"scripts": {
-		"dev": "react-server --force",
-		"build": "react-server build",
-		"start": "react-server start --host"
-	},
-	"type": "module",
-	"dependencies": {
-		"@chakra-ui/react": "^2.8.2",
-		"@emotion/react": "^11.13.3",
-		"@emotion/styled": "^11.13.0",
-		"@lazarv/react-server": "0.0.0-experimental-ad417f4-20240831-5a91fe57",
-		"@lazarv/react-server-router": "0.0.0-experimental-8a911c7-20240831-2211891a",
-		"dotenv": "^16.4.5",
-		"framer-motion": "^11.5.4"
-	}
+  "scripts": {
+    "dev": "react-server",
+    "build": "react-server build",
+    "start": "react-server start --host"
+  },
+  "type": "module",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@lazarv/react-server": "0.0.0-experimental-da250e2-20240909-6dc86ec1",
+    "@lazarv/react-server-router": "0.0.0-experimental-8a911c7-20240831-2211891a",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.5.4"
+  },
+  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
 }
