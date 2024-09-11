@@ -9,7 +9,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@lazarv/react-server": "0.0.0-experimental-da250e2-20240909-6dc86ec1",
+    "@lazarv/react-server": "0.0.0-experimental-6282ca0-20240911-b02c76ef",
     "@lazarv/react-server-router": "0.0.0-experimental-8a911c7-20240831-2211891a",
     "dotenv": "^16.4.5",
     "framer-motion": "^11.5.4"

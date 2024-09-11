@@ -17,18 +17,6 @@ export default defineConfig({
         find: "@providers",
         replacement: path.resolve("./src/providers/"),
       },
-      {
-        find: "lodash.mergewith",
-        replacement: "lodash.mergewith",
-      },
-      {
-        find: "react-fast-compare",
-        replacement: "react-fast-compare",
-      },
-      {
-        find: "copy-to-clipboard",
-        replacement: "copy-to-clipboard",
-      },
     ],
   },
   server: {
