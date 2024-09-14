@@ -1,6 +1,6 @@
 import Providers from "../providers";
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <html lang="en">
       <head>
@@ -9,10 +9,8 @@ export default function Layout({children}) {
         <title>React Server Test</title>
       </head>
       <body>
-        <Providers>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
-};
+}

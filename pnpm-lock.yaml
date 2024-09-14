@@ -18,11 +18,11 @@ importers:
         specifier: ^11.13.0
         version: 11.13.0(@emotion/react@11.13.3(@types/react@18.3.5)(react@0.0.0-experimental-58af67a8f8-20240628))(@types/react@18.3.5)(react@0.0.0-experimental-58af67a8f8-20240628)
       '@lazarv/react-server':
-        specifier: 0.0.0-experimental-ad417f4-20240831-5a91fe57
-        version: 0.0.0-experimental-ad417f4-20240831-5a91fe57(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0)
+        specifier: 0.0.0-experimental-6282ca0-20240911-b02c76ef
+        version: 0.0.0-experimental-6282ca0-20240911-b02c76ef(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0)
       '@lazarv/react-server-router':
         specifier: 0.0.0-experimental-8a911c7-20240831-2211891a
-        version: 0.0.0-experimental-8a911c7-20240831-2211891a(@lazarv/react-server@0.0.0-experimental-ad417f4-20240831-5a91fe57(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0))(rollup@4.21.2)
+        version: 0.0.0-experimental-8a911c7-20240831-2211891a(@lazarv/react-server@0.0.0-experimental-6282ca0-20240911-b02c76ef(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0))(rollup@4.21.2)
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -984,8 +984,8 @@ packages:
     peerDependencies:
       '@lazarv/react-server': ^0.0.0-experimental-8a911c7-20240831-2e65d64c
 
-  '@lazarv/react-server@0.0.0-experimental-ad417f4-20240831-5a91fe57':
-    resolution: {integrity: sha512-68Jtj90SqsTPUNNNes/VA5x7BDsMjPIncZHCbrdQEXkMwifTYZ247OfpjF3A3iUba65+bfzA4z0dScfux2sO/A==}
+  '@lazarv/react-server@0.0.0-experimental-6282ca0-20240911-b02c76ef':
+    resolution: {integrity: sha512-nm15K9bTcmGFS0lTt6MPpBWwofbjcCoLcaTRLtHxBVAn04XChcDXfY3IIvlhKb+l7KVqCENHFEOncivy/IMh2Q==}
     engines: {node: '>=20.10.0'}
     hasBin: true
 
@@ -3783,9 +3783,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lazarv/react-server-router@0.0.0-experimental-8a911c7-20240831-2211891a(@lazarv/react-server@0.0.0-experimental-ad417f4-20240831-5a91fe57(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0))(rollup@4.21.2)':
+  '@lazarv/react-server-router@0.0.0-experimental-8a911c7-20240831-2211891a(@lazarv/react-server@0.0.0-experimental-6282ca0-20240911-b02c76ef(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0))(rollup@4.21.2)':
     dependencies:
-      '@lazarv/react-server': 0.0.0-experimental-ad417f4-20240831-5a91fe57(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0)
+      '@lazarv/react-server': 0.0.0-experimental-6282ca0-20240911-b02c76ef(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0)
       '@mdx-js/rollup': 3.0.1(rollup@4.21.2)
       '@types/react': 18.3.5
       '@types/react-dom': 18.3.0
@@ -3799,7 +3799,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@lazarv/react-server@0.0.0-experimental-ad417f4-20240831-5a91fe57(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0)':
+  '@lazarv/react-server@0.0.0-experimental-6282ca0-20240911-b02c76ef(@types/node@22.5.4)(rollup@4.21.2)(terser@5.31.6)(webpack@5.94.0)':
     dependencies:
       '@hattip/adapter-node': 0.0.34
       '@hattip/compose': 0.0.34

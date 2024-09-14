@@ -10,6 +10,9 @@ RUN npm i pnpm -g
 COPY ./src ./src
 COPY ./package.json ./
 COPY ./react-server.config.mjs ./
+COPY ./vite.config.js ./
+
+ENV CI=1
 
 # Install pnpm and dependencies
 RUN pnpm install \
